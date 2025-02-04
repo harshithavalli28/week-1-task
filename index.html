@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NNRG-WEBSITE(week-1)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>NALLA NARASIMHA REDDY</h1>
+            <H3>Education Society's Group of Institutions</H3>
+            <p>To be a premier institution ensuring globally competent<br> and ethically strong professionals.</p>
+            <a href="" class="hero-btn">Visit Us to know more</a>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>This Society is established and registered with a primary objective of educating young men and women to prepare them for fast changing national and international requirements, to fund the needy and promote research in the area of science and technology. Accordingly, an Integrated Contiguous Campus with multi-disciplinary Technical, Engineering, Pharmacy and Management programs under the banner of Nalla Narasimha Reddy Education Society’s (NNRG) Group of Institutions is started.</p>
+        <div class="row">
+            <div class="facility-col">
+                <h3>Central Library</h3>
+                <p>NNRG is proud of its library which is spread over a floor area of 1000 Sqm having a separate lending section, the reading section, journal section and digital library section. The modern library contains more than 20000 volumes of books covering about 2000 titles.</p>
+            </div>
+            <div class="facility-col">
+                <h3>Laboratories</h3>
+                <p>NNRG offers exquisite state of art laboratories in each department, which provides the hands on approach to the students, which foster their knowledge in the subjects. NNRG is highly committed to impart the students with the practical experience.</p>
+            </div>
+            <div class="facility-col">
+                <h3>Sports & Games</h3>
+                <p>NNRG encourages both outdoor and indoor games. The campus is enriched with highly spacious green grounds and exquisite sports facilities like Basket Ball, Cricket, Volley Ball, Throw Ball, Football etc. are offered.</p>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses Anywhere from The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>"
+    </section>
+    <section class="footer">
+        <p>&copy;Nalla Narasimha Reddy Education Society's Group of Institutions - Integrated Campus.</p>
+    </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NNRG-WEBSITE(week-1)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+        <div class="about-col">
+            <h1>ABOUT US</h1>
+            <p>NNRG believes that our country can only progress through skilled manpower. Discipline, Hard work, Respect& Values are the hallmarks of NNRG. The motto of NNRG is “Dream Big and Aim High”. Nalla Narasimha Reddy Education Society is established and registered with a primary objective of educating young men and women; to prepare them for fast changing national and international requirements; to fund the needy and promote research in the area of science and technology.
+                Accordingly, an Integrated Contiguous Campus with multi disciplinary Technical, Engineering, Pharmacy and Management programs under the banner of Nalla Narasimha Reddy Education Society’s (NNRG) Group of Institutions is started.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>    
+        </div>
+        <div class="about-col">
+            <img src="images/2.webp">
+        </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>&copy;Nalla Narasimha Reddy Education Society's Group of Institutions - Integrated Campus.</p>
+    </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

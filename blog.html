@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NNRG-WEBSITE(week-1)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ADMISSION PROCESS</h1>
+    </section>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/4.jpg">
+                <h2> Admission Process</h2>
+                <p>Admissions to the Institute are made along with the other Engineering/Pharmacy colleges in the state through a common entrance test (TGEAPCET) conducted by the Govt. of Telangana State/TSCHE.</p><br>
+                <h4>B.Tech - CSE, CSE(AI & ML), CSE(Data Science), ECE & CIVIL:</h4><br>
+                <p>The admission pattern to B. Tech is as follows: The minimum qualification for admission to the first year of the B. Tech course is a pass in the Intermediate (10 + 2) conducted by the board of Intermediate Education, Govt. of Telangana State/A.P or any other examination recognized as equivalent thereto with Mathematics, Physics, and Chemistry as optional subjects.
+                    70 % of the seats are allotted based on the merit in the TGEAPCET.
+                    30 % of the seats are earmarked for Management/NRI candidates.</p><br>
+                    <h4>B. Tech Lateral Entry (CSE, CSE(AI & ML), CSE(Data Science), IT, ECE & CIVIL):</h4><br>
+                    <p>The admission pattern to B. Tech Lateral Entry is as follows: The minimum qualification for admission to the Second year of the B. Tech course is a pass in Diploma/B.Sc(Mathematics) holders, are admitted in the second year of B. Tech .to the extent of 10% of intake based on the merit in the TGECET, under lateral entry scheme.</p><br>
+                    <h4>B. Pharmacy:</h4><br>
+                    <p>The admission pattern to B. Pharmacy is as follows: The minimum qualification for admission to the first year of the B. Pharmacy course is a pass in the Intermediate (10 + 2) conducted by the board of Intermediate Education, Govt. of Telangana State/A.P or any other examination recognized as equivalent thereto with Mathematics, Biology, Physics, and Chemistry as optional subjects.
+                        70 % of the seats are allotted based on the merit in the TGEAPCETB.
+                        30 % of the seats are earmarked for Management/NRI candidates.</p><br>
+                        <h4>MBA:</h4><br>
+                        <p>The admission pattern to MBA courses are as follows: The minimum qualification for admission to the first year of the MBA is a pass in the undergraduate course (10 + 2 + 3).
+                            70 % of the seats are allotted based on the merit in the TGICET.
+                            30 % of the seats are earmarked for Management/NRI candidates.</p>          
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>B.Tech-CSE</span>
+                    <span>300</span>
+                </div>
+                <div>
+                    <span>B.Tech-ECE</span>
+                    <span>180</span>
+                </div>
+                <div>
+                    <span>B.Tech-Civil</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>B.Pharmacy</span>
+                    <span>100</span>
+                </div>
+                <div>
+                    <span>M.Tech</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>MBA</span>
+                    <span>60</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>&copy;Nalla Narasimha Reddy Education Society's Group of Institutions - Integrated Campus.</p>
+    </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
